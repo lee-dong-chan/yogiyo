@@ -41,10 +41,10 @@ const Review = ({}: IProps): JSX.Element => {
           <span className="text-yellow-400">★★★★★</span>
           <span className="mx-2 h-[1rem] border-s"></span>
           <span className="text-[0.9rem] text-gray-400">
-            맛<span className="text-[0.9rem] text-yellow-400">★</span>
+            맛<span className="px-1 text-[0.9rem] text-yellow-400">★</span>
           </span>
           <span className="text-[0.9rem] text-gray-400">
-            양<span className="text-[0.9rem] text-yellow-400">★</span>
+            양<span className="px-1 text-[0.9rem] text-yellow-400">★</span>
           </span>
         </div>
         <img src="/imgs/bbq3.png"></img>

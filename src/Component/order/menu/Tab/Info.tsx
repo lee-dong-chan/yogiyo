@@ -1,6 +1,12 @@
 interface IProps {}
 
 const Info = ({}: IProps): JSX.Element => {
-  return <div>정보</div>;
+  return (
+    <div className="p-2 h-[50rem]">
+      <div className="flex">
+        <div>사장님 알림</div>
+      </div>
+    </div>
+  );
 };
 export default Info;
