@@ -29,7 +29,7 @@ export const list: Cate[] = [
 export const storenotice: StoreNotice[] = [
   new StoreNotice(
     1,
-    "우천시 배달기사 부족으로인하여 배달이 오래걸릴수있습니다. 양해부탁드립니다"
+    "우천시 배달기사 부족으로인하여 배달이 오래걸릴수있습니다. 양해감사합니다."
   ),
 ];
 
