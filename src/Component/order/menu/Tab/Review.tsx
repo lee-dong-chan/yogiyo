@@ -1,6 +1,4 @@
-interface IProps {}
-
-const Review = ({}: IProps): JSX.Element => {
+const Review = (): JSX.Element => {
   return (
     <div>
       <div className=" h-[7rem] flex justify-center items-center gap-3 border-b">
@@ -47,7 +45,7 @@ const Review = ({}: IProps): JSX.Element => {
             양<span className="px-1 text-[0.9rem] text-yellow-400">★</span>
           </span>
         </div>
-        <img src="/imgs/bbq3.png"></img>
+        <img src="/imgs/bbq3.png" alt="imgs"></img>
         <div className="text-yellow-600 text-[0.8rem]">
           황금올리브치킨 + 콜라
         </div>

@@ -1,10 +1,7 @@
 import { FC } from "react";
-import { Category as Cate } from "../../lib/category";
-import { Link } from "react-router-dom";
 import { Center } from "../../css/css";
-interface IProps {}
 
-const NoneList: FC<IProps> = ({}) => {
+const NoneList: FC = () => {
   return (
     <div
       className={`${Center} h-[25rem] bg-white border flex-col text-[0.8rem] text-gray-400`}

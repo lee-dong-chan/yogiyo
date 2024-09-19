@@ -1,6 +1,4 @@
-interface IProps {}
-
-const Info = ({}: IProps): JSX.Element => {
+const Info = (): JSX.Element => {
   return (
     <div className="p-2 h-[50rem]">
       <div className="flex">

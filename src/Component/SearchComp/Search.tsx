@@ -19,12 +19,14 @@ const Search = (): JSX.Element => {
       <img
         src="/imgs/bg-top.png"
         className="absolute h-[14rem] top-[-110%] w-screen"
+        alt="imgs"
       ></img>
       <div className={`${Center} relative top-[20%]`}>
         <div>
           <img
             className="me-2 h-[2.5rem] rounded pointer-events-none"
             src="/imgs/location.png"
+            alt="imgs"
           ></img>
         </div>
 
@@ -40,6 +42,7 @@ const Search = (): JSX.Element => {
           <img
             src="/imgs/cansle.png"
             className="h-[100%]"
+            alt="imgs"
             onClick={cansle}
           ></img>
         </div>

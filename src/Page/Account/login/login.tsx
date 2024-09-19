@@ -1,18 +1,14 @@
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
 import { Box } from "../../../css/css";
 import { Link } from "react-router-dom";
 
-interface IProps {}
-
-const Login: FC<IProps> = ({}) => {
-  useEffect(() => {}, []);
-
+const Login: FC = () => {
   return (
     <div>
-      <div className={"container " + `${Box} min-w-[80rem]`}>
+      <div className={`container ${Box} min-w-[80rem]`}>
         <Link to={"/"}>
           <div className="mx-auto my-4 max-w-[6rem] pointer-events-none ">
-            <img src="/imgs/logo-yogiyo-2.png"></img>
+            <img src="/imgs/logo-yogiyo-2.png" alt="imgs"></img>
           </div>
         </Link>
 
@@ -54,6 +50,7 @@ const Login: FC<IProps> = ({}) => {
                     <img
                       className="w-[2rem] pointer-events-none"
                       src="/imgs/naver_login.png"
+                      alt="imgs"
                     ></img>
                   </span>
                   네이버로 로그인
@@ -69,6 +66,7 @@ const Login: FC<IProps> = ({}) => {
                     <img
                       className="w-[2rem] pointer-events-none"
                       src="/imgs/kakao_login.png"
+                      alt="imgs"
                     ></img>
                   </span>
                   카카오로 로그인
@@ -76,7 +74,7 @@ const Login: FC<IProps> = ({}) => {
               </div>
             </div>
             <div className="py-3 pointer-events-none">
-              <img src="/imgs/signin_banner.png"></img>
+              <img src="/imgs/signin_banner.png" alt="imgs"></img>
             </div>
           </div>
         </div>

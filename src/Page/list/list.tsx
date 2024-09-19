@@ -1,7 +1,7 @@
-import { Component, FC, ReactNode } from "react";
+import { FC } from "react";
 import { Category as Cate } from "../../lib/category";
 import ListCategory from "../../Component/listcategory/category";
-import { Box, Center } from "../../css/css";
+import { Box } from "../../css/css";
 import { StoreList as Store } from "../../lib/storelist";
 import StoreList from "../../Component/storelist/storelist";
 import NoneList from "../../Component/storelist/nonelist";

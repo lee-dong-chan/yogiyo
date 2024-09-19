@@ -1,5 +1,3 @@
-import { FC } from "react";
-import { Category as Cate } from "../../lib/category";
 import { Link } from "react-router-dom";
 
 export interface IItem {
@@ -22,7 +20,7 @@ const ListCategory = ({ item, isEnd }: IProps) => {
           </span>
         </div>
         <span>
-          {isEnd == false ? <span className="p-0 text-gray-300 ">|</span> : ""}
+          {isEnd === false ? <span className="p-0 text-gray-300 ">|</span> : ""}
         </span>
       </div>
     </Link>

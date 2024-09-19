@@ -29,6 +29,7 @@ const Layout: FC<IProps> = ({ list, storelist, storenotice }) => {
               <img
                 className="h-[100%] pointer-events-none"
                 src="/imgs/logo-yogiyo.png"
+                alt="imgs"
               ></img>
             </div>
           </Link>

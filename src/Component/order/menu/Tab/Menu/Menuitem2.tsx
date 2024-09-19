@@ -11,7 +11,7 @@ const Item = ({ item }: IProps): JSX.Element => {
         <div className="text-[0.8rem] text-gray-400">{item.content}</div>
         <div>{item.price}원</div>
       </div>
-      <img src={`/imgs/${item.img}.png`} className="w-[20%]"></img>
+      <img src={`/imgs/${item.img}.png`} className="w-[20%]" alt="imgs"></img>
     </div>
   );
 };
